@@ -1,15 +1,15 @@
 {
-  "name": "frugalhq",
+  "name": "continuum",
   "version": "0.1.0",
   "private": false,
   "description": "A fast, local-first envelope budgeting app. Your money, your device, your rules.",
   "type": "module",
-  "author": "FrugalHQ Contributors",
+  "author": "Continuum Contributors",
   "license": "MIT",
-  "homepage": "https://github.com/FrugalHQ/frugalhq",
+  "homepage": "https://continuum-memory.xyz/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FrugalHQ/frugalhq.git"
+    "url": "https://continuum-memory.xyz/.git"
   },
   "keywords": [
     "budgeting",

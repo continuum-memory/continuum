@@ -1,7 +1,7 @@
 import type { Envelope, Transaction, BudgetMonth, AppState } from '@/types'
 import { getCurrentMonth, generateId } from '@/lib/utils'
 
-const STORAGE_KEY = 'frugalhq_data'
+const STORAGE_KEY = 'continuum_data'
 
 const DEFAULT_ENVELOPES: Omit<Envelope, 'id' | 'createdAt'>[] = [
   { name: 'Housing', icon: 'home', color: 'blue', budgeted: 1500, filled: 0, order: 0 },

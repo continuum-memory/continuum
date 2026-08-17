@@ -33,7 +33,7 @@ export function Layout({ children, readyToAssign, monthId }: LayoutProps) {
             <div className="w-7 h-7 bg-emerald-500 rounded-lg flex items-center justify-center">
               <Leaf className="w-4 h-4 text-slate-950" />
             </div>
-            <span className="font-semibold text-slate-50 tracking-tight">FrugalHQ</span>
+            <span className="font-semibold text-slate-50 tracking-tight">Continuum</span>
           </div>
 
           {/* Ready to assign pill */}

@@ -16,7 +16,7 @@ export function Settings({ appState }: SettingsProps) {
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url
-    a.download = `frugalhq-backup-${new Date().toISOString().slice(0, 10)}.json`
+    a.download = `continuum-backup-${new Date().toISOString().slice(0, 10)}.json`
     a.click()
     URL.revokeObjectURL(url)
   }
@@ -32,7 +32,7 @@ export function Settings({ appState }: SettingsProps) {
       reader.onload = (ev) => {
         try {
           const parsed = JSON.parse(ev.target?.result as string) as AppState
-          localStorage.setItem('frugalhq_data', JSON.stringify(parsed))
+          localStorage.setItem('continuum_data', JSON.stringify(parsed))
           window.location.reload()
         } catch {
           alert('Invalid backup file')
@@ -73,18 +73,18 @@ export function Settings({ appState }: SettingsProps) {
 
       {/* About */}
       <section className="card p-5 space-y-3">
-        <h2 className="font-medium text-slate-200">About FrugalHQ</h2>
+        <h2 className="font-medium text-slate-200">About Continuum</h2>
         <p className="text-sm text-slate-400 leading-relaxed">
-          FrugalHQ is a local-first envelope budgeting app. The envelope method forces you to only spend money you actually have — not money you're expecting. No subscriptions, no tracking, no data leaving your device.
+          Continuum is a local-first envelope budgeting app. The envelope method forces you to only spend money you actually have — not money you're expecting. No subscriptions, no tracking, no data leaving your device.
         </p>
         <div className="flex flex-col gap-2 pt-1">
           <a
-            href="https://github.com/FrugalHQ/frugalhq"
+            href="https://github.com/continuum-memory/continuum"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-sm text-slate-400 hover:text-slate-50 transition-colors"
           >
-            <Github className="w-4 h-4" /> FrugalHQ/frugalhq on GitHub
+            <Github className="w-4 h-4" /> continuum-memory/continuum on GitHub
             <ExternalLink className="w-3 h-3 ml-auto" />
           </a>
         </div>

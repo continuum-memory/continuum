@@ -1,10 +1,10 @@
-# Contributing to FrugalHQ
+# Contributing to Continuum
 
-Thank you for your interest in contributing! FrugalHQ is a small, focused open-source project and we welcome contributions of all kinds.
+Thank you for your interest in contributing! Continuum is a small, focused open-source project and we welcome contributions of all kinds.
 
 ## Philosophy
 
-FrugalHQ is built around three non-negotiables:
+Continuum is built around three non-negotiables:
 
 1. **Local-first** — user data must never leave the device unless the user explicitly exports it
 2. **No subscription** — the app will always be free and open-source
@@ -16,8 +16,8 @@ Before opening a PR for a new feature, please open an issue first so we can alig
 
 ```bash
 # Clone the repo
-git clone https://github.com/FrugalHQ/frugalhq.git
-cd frugalhq
+git clone https://github.com/continuum-memory/continuum.git
+cd continuum
 
 # Install dependencies
 npm install
@@ -48,7 +48,7 @@ npm run dev
 
 ## Reporting Bugs
 
-Open a [GitHub issue](https://github.com/FrugalHQ/frugalhq/issues) with:
+Open a [GitHub issue](https://github.com/continuum-memory/continuum/issues) with:
 - A clear description of the bug
 - Steps to reproduce
 - Your browser and OS

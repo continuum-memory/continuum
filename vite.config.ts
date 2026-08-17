@@ -9,8 +9,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {
-        name: 'FrugalHQ',
-        short_name: 'FrugalHQ',
+        name: 'Continuum',
+        short_name: 'Continuum',
         description: 'Local-first envelope budgeting app',
         theme_color: '#10b981',
         background_color: '#0f172a',
